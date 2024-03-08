@@ -14,13 +14,20 @@ Sentiment analysis and aspect based sentiment analysis can really help the compa
 <img src="https://media.sproutsocial.com/uploads/2023/06/Review-Analysis-Final.png" alt="Analysing Reviews" width="540" height="280" border="10" />
 </a>
 
+## Potential Applications
+- Customer Feedback Analysis: Companies can use this analysis to understand customer satisfaction levels, identify areas for improvement, and make data-driven decisions. 
+- Political Analysis: Can be used in political campaigns to gauge public opinion, monitor voter sentiment. 
+- Customer Support: Can be integrated into customer support systems to automatically categorize and prioritize customer queries based on sentiment. It helps in providing faster responses and resolving customer issues more efficiently. 
+- Brand Monitoring: By analyzing sentiment, they can track public perception, identify emerging trends, and manage their brand reputation effectively.
+
 ## Roadmap for EDA
 - The Data set can be downloaded from the link : https://www.kaggle.com/datasets/nicapotato/womens-ecommerce-clothing-reviews/data
 - Analysis of null values and figuring out suitable option to drop or fill na()
 - Finding out dataset information and then converting 'Object' type data to necessary 'Int/Float' type or by adding dummy variables
 
 
-**This is essentially a classification problem where we have to classify our review column(Target) into three main buckets such as 'Positive' , 'Negative' and 'Nuetral'**
+**This is essentially a classification problem where we have to classify our review column(Target) into three main buckets such as 'Positive' , 'Negative' and 'Nuetral' using NLP**
+
 
 
 ## Data Dictionary
