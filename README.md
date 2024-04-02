@@ -1,5 +1,19 @@
 # My-Capstone - Review-Analysis
 
+## Table of Contents
+
+- [The Problem area](#background)
+- [The Big Idea](#idea)
+- [The Impact](#impact)
+- [Potential Applications](#applications)
+- [Roadmap for EDA](#eda)
+- [Data Dictionary](#data-dictionary)
+- [Modeling](#modeling)
+   - [Logistic Regression](#modeling)
+   - [Decision Trees](#modeling)
+   - [LSTM neural networks](#modeling)
+- [Model Evaluation](#evaluation)
+
 ## The Problem area
 The particular area of interest is the Retail Industry. For any strategy building or forecasting, it is crucial to understand the consumer shopping behaviour. This helps us define patterns and nuances which helps the business to grow further. 
 
@@ -42,3 +56,16 @@ Sentiment analysis and aspect based sentiment analysis can really help the compa
 - `Department Name`: Categorical name of the product department name.
 - `Class Name`: Categorical name of the product class name.
 
+## Modeling
+Build models with three different algorithms and compare their performance. Thus, we will determine the algorithm that makes the most accurate emotion estimation by using the information obtained from the Review Text variable.
+
+  #### - Logistic Regression : Logistic regression is one of the most basic (yet effective) tools we have for classifying categorical data. Here using review_text as the target variable
+
+  ####  - Decision Trees : Decision trees are useful for categorizing results where attributes can be sorted against known criteria to determine the final category. In this case, extremely useful as it requires less data cleaning than other data modeling techniques.
+
+ #### - LSTM neural networks : recurrent neural network (RNN) architecture that is particularly well-suited for sequence prediction tasks, such as natural language processing (NLP), and speech recognition  
+
+
+## Model Evaluation : based on hyperparameter optimization 
+
+## Applications : Reccomender sytemems 
