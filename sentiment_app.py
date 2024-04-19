@@ -52,7 +52,7 @@ def main():
     # Insert image of sentiment analysis
     # Custom subheader with smaller font size
     st.subheader("Let's predict how you feel!")
-    st.image("/Users/gulshanchaudhary/Desktop/capstone_model/5-Top-APIs-For-Sentiment-Analysis.png", use_column_width=True)
+    st.image("capstone_model/5-Top-APIs-For-Sentiment-Analysis.png", use_column_width=True)
     
     st.markdown(
         """
@@ -102,7 +102,7 @@ def main():
     # Use the model to predict sentiment & write result
     if text:
         try:
-            model = joblib.load("/Users/gulshanchaudhary/Desktop/capstone_model/sentiment_pipeline.pkl 2")
+            model = joblib.load("capstone_model/sentiment_pipeline.pkl 2")
             prediction = model.predict([text])
             probabilities = model.predict_proba([text])
             if prediction == 1:
